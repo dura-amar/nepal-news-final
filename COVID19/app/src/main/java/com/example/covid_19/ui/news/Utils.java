@@ -58,9 +58,13 @@ public class Utils {
         return newDate;
     }
 
-    static String getCountry() {
+    public static String getCountry() {
         Locale locale = Locale.getDefault();
         String country = locale.getCountry();
         return country.toLowerCase();
+    }
+
+    public static String getLanguage() {
+        return "en";
     }
 }

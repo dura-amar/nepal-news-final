@@ -33,7 +33,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
     private Context context;
     private OnItemClickListener onItemClickListener;
 
-    Adapter(List<Article> articles, Context context) {
+    public Adapter(List<Article> articles, Context context) {
         this.articles = articles;
         this.context = context;
     }
