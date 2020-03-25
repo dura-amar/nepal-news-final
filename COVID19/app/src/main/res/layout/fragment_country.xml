@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.country.CountryFragment">
+
+    <TextView
+        android:id="@+id/total_territory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#fff"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/colorPrimaryDarkNews"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_territory"
+        tools:listitem="@layout/single_country_card" />
+
+    <ProgressBar
+        android:id="@+id/progress_circular_home"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">COVID-19</string>
+    <string name="title_home">Home</string>
+    <string name="title_country">Country</string>
+    <string name="title_news">News</string>
+
+
+    <string name="news_api_KEY">a2aad3f4a7f4482a8f592ad9718ee8be</string>
+
+</resources>
